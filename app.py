@@ -7,7 +7,7 @@ Created on Tue Jan 27 17:32:56 2026
 
 import streamlit as st
 
-st.write("-----------")
+st.write("0987654321")
 
 st.title("Title heading")
 
@@ -18,3 +18,4 @@ st.header("Number selection")
 number = st.slider("Pick a number", 1, 100)
 
 st.write(f"You picked: {number}")
+
