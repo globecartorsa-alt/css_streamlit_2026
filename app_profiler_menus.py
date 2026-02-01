@@ -3,13 +3,13 @@ import pandas as pd
 import numpy as np
 
 # Set page title
-st.set_page_config(page_title="Researcher Profile and STEM Data Explorer", layout="wide")
+st.set_page_config(page_title="Profile", layout="wide")
 
 # Sidebar Menu
 st.sidebar.title("Navigation")
 menu = st.sidebar.radio(
     "Go to:",
-    ["Researcher Profile", "Publications", "STEM Data Explorer", "Contact"],
+    ["Profile", "Portfolio", "Contact"],
 )
 
 # Dummy STEM data
@@ -132,4 +132,5 @@ elif menu == "Contact":
     # Add a contact section
     st.header("Contact Information")
     email = "jane.doe@example.com"
+
     st.write(f"You can reach me at {email}.")
