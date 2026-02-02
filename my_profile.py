@@ -79,8 +79,10 @@ EMAIL = "xululindom@gmail.com"
 if menu == "Profile":
     st.title("Profile")
     st.markdown(
-        ""**Name:** Lindokuhle Xulu\n""
-		""**Field:** Geography & Environmental Management (Specialisation : GIS and Remote Sensing\n""
+        """
+		**Name:** Lindokuhle Xulu
+		**Field:** Geography & Environmental Management (Specialisation : GIS and Remote Sensing
+		"""
 	)
     st.image("https://cdn.pixabay.com/photo/2020/04/16/15/39/mountains-5051149_1280.jpg", caption="Mountains (Pixabay)")
     st.subheader("Professional Summary")
@@ -131,6 +133,7 @@ elif menu == "Contact":
     st.write(f"**Email:** {EMAIL}")
 
    
+
 
 
 
