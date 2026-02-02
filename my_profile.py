@@ -84,7 +84,7 @@ if menu == "Profile":
         **Field:** Geography & Environmental Management (Specialisation : GIS and Remote Semsing)
         """
     )
-    st.image("https://pixabay.com/photos/mountains-landscape-river-nature-5051149/", caption="Mountains (Pixabay)")
+    st.image("https://pixabay.com/images/download/mountains-5051149_1920.jpg", caption="Mountains (Pixabay)")
     st.subheader("Professional Summary")
     st.write(
         "Postgraduate researcher with a BSocSci Honours in Geography & Environmental Management and practical experience in "
@@ -133,3 +133,4 @@ elif menu == "Contact":
     st.write(f"**Email:** {EMAIL}")
 
    
+
