@@ -85,7 +85,7 @@ if menu == "Profile":
 		**Institution:** University of the Witwatersrand, Johannesburg
         """
     )
-    st.image("https://pixabay.com/images/download/mountains-5051149_1920.jpg", caption="Mountains (Pixabay)")
+    st.image("https://cdn.pixabay.com/photo/2020/04/16/15/39/mountains-5051149_1280.jpg", caption="Mountains (Pixabay)")
     st.subheader("Professional Summary")
     st.write(
         "Postgraduate researcher with a BSocSci Honours in Geography & Environmental Management and practical experience in "
@@ -134,5 +134,6 @@ elif menu == "Contact":
     st.write(f"**Email:** {EMAIL}")
 
    
+
 
 
