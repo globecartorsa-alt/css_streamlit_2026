@@ -82,6 +82,7 @@ if menu == "Profile":
         """
 		**Name:** Lindokuhle Xulu \n
 		**Field:** Geography & Environmental Management (Specialisation : GIS and Remote Sensing \n
+		**Institution:** University of the Witwatersrand, Johannesburg
 		"""
 	)
     st.image("https://cdn.pixabay.com/photo/2020/04/16/15/39/mountains-5051149_1280.jpg", caption="Mountains (Pixabay)")
@@ -133,6 +134,7 @@ elif menu == "Contact":
     st.write(f"**Email:** {EMAIL}")
 
    
+
 
 
 
